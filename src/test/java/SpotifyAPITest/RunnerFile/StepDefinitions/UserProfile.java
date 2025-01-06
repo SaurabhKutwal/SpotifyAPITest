@@ -24,7 +24,7 @@ public class UserProfile extends TestManager {
     }
     @Given("^A payload with (.+) access token$")
     public void a_payload_with_access_code(String isCodeValid) {
-        String accessCode = isCodeValid.equals("right")?accessToken:"randomsString";
+        String accessCode = isCodeValid.equals("right")?properties.getProperty("accessToken"):"randomsString";
         String authorization = "Bearer " + accessCode;
         request = given().header("Authorization",authorization);
     }

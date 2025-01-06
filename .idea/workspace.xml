@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bb9f934-bdf6-4e03-be57-5e1289b70014" name="Changes" comment="working">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/SearchItem.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/Userprofile.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/UserProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/UtilityPKG/TestManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/UtilityPKG/TokenManager.java" afterDir="false" />
+    <list default="true" id="1bb9f934-bdf6-4e03-be57-5e1289b70014" name="Changes" comment="Authentication, access_code and fetch User profile functionality done.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/Hooks/TestHooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/SearchItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/Authentication.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/Authentication.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/SearchItem.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/SearchItem.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/Properties/UserDetails.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/Properties/UserDetails.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/AuthenticationDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/AuthenticationDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/UserProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/UtilityPKG/TestManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/UtilityPKG/TestManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/UtilityPKG/TokenManager.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,11 +154,20 @@
       <option name="project" value="LOCAL" />
       <updated>1736162987793</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Authentication, access_code and fetch User profile functionality done.">
+      <option name="closed" value="true" />
+      <created>1736178127650</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736178127650</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="working" />
-    <option name="LAST_COMMIT_MESSAGE" value="working" />
+    <MESSAGE value="Authentication, access_code and fetch User profile functionality done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Authentication, access_code and fetch User profile functionality done." />
   </component>
 </project>

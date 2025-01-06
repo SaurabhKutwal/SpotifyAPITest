@@ -50,12 +50,12 @@ public class AuthenticationDef extends TestManager {
     }
 
     @And("Check a token and token type")
-    public void checkATokenAndTokenType() {
+    public void checkATokenAndTokenType() throws IOException {
         RespAuthenticationSuc authSuc = response.then().extract().as(RespAuthenticationSuc.class);
-        accessToken = authSuc.getAccess_token();
-        refreshToken = authSuc.getRefresh_token();
-        System.out.println("AccessToken  : " + accessToken);
+        updateToken(authSuc.getAccess_token(),authSuc.getRefresh_token());
+        System.out.println("Got token successfully");
     }
+
     @And("Check error msg")
     public void errorMsg(){
         ResponseAuthorizationFail authFail = response.then().extract().as(ResponseAuthorizationFail.class);
