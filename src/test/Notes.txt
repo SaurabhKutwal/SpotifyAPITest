@@ -1,0 +1,15 @@
+client Id : 2c2cb6497aac493ba689e807323aa42a
+client secret : 5da02064c57a4259baee9d9fdccb6047
+Base64 token : MmMyY2I2NDk3YWFjNDkzYmE2ODllODA3MzIzYWE0MmE6NWRhMDIwNjRjNTdhNDI1OWJhZWU5ZDlmZGNjYjYwNDc=
+
+URI : https://localhost:3000/callback
+
+code=AQCTMAo2wDLbP7HTUEPO7MbvqC5C8PM63NLvw3xS7mfrMbA10xLtbbPXSG66VsYe_-KKnBdvbg9R5HMmiiVDcOh0ajgcp_ZfWzPqTgHNcK_5gHrkD5puzFw_WbXygoH7mK99MBZV8SPtNr5Ptlun5gp-SFFLBF8Cz7DNe0YxUGFd8Xg
+
+Response :
+{
+    "access_token": "BQBGb-tA0fNve1m70XbTwTErkftnqk6njFsNJUy_PGc65dpoLJlCzDw6LyTk1Am8955L95NWg5GooAOclG6mHlw4jItKc6RMprJx5EX2KM0EjQNQpYkOm72a_7XNcLe40TnrOeUafOOSmrXYoLYWHx8OV0NcK3JkMbtanpZs0gNyU6Wg3613pTMPPTe6HV0a1-HlVIWzVwwyxw",
+    "token_type": "Bearer",
+    "expires_in": 3600,
+    "refresh_token": "AQCpFOj1UsMwm_mOZP0iW9Cs8aBlVkyX3Txe9hPLBPgwnlVDgHpfUvenBLfKH2B8EVHrY9uTAS-awEQclIESjTefDbGPhUaTZfYbI0ITksFm_jS3b8ww61EjQn5hnRHF_38"
+}

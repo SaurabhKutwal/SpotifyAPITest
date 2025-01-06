@@ -1,0 +1,108 @@
+1. Authentication and Authorization
+Test Case: Validate the API's OAuth 2.0 authentication flow.
+Steps:
+
+Request an access token using client credentials.
+Try accessing an endpoint with and without the token.
+Expected Result:
+API should return a valid token for correct credentials.
+Unauthorized access should return a 401 error.
+
+2. Fetch User Profile
+Test Case: Verify fetching a user's profile.
+Endpoint: GET /v1/me
+Steps:
+
+Use a valid access token to request profile details.
+Attempt the same request with an expired or invalid token.
+Expected Result:
+API should return correct profile information with valid token.
+Should return a 401 error for invalid tokens.
+
+3. Search for Tracks
+Test Case: Test the search functionality for tracks.
+Endpoint: GET /v1/search
+Parameters: q=track_name&type=track
+Steps:
+
+Search for a valid track name (e.g., "Shape of You").
+Search for a non-existent track.
+Expected Result:
+Should return track details for valid input.
+Should return an empty list for non-existent tracks.
+
+4. Create a Playlist
+Test Case: Verify playlist creation for a user.
+Endpoint: POST /v1/users/{user_id}/playlists
+Steps:
+
+Create a playlist with a valid user ID and access token.
+Attempt the same with an invalid user ID.
+Expected Result:
+API should return a 201 status and the playlist ID for valid requests.
+Should return a 404 error for invalid user IDs.
+
+5. Add Tracks to a Playlist
+Test Case: Test adding tracks to an existing playlist.
+Endpoint: POST /v1/playlists/{playlist_id}/tracks
+Steps:
+
+Add a valid track URI to a valid playlist ID.
+Attempt adding an invalid track URI.
+Expected Result:
+Tracks should be added successfully for valid inputs.
+Should return a 400 error for invalid track URIs.
+
+6. Get Playlist Tracks
+Test Case: Verify retrieval of tracks in a playlist.
+Endpoint: GET /v1/playlists/{playlist_id}/tracks
+Steps:
+
+Fetch tracks from a playlist with valid and invalid IDs.
+Test pagination by limiting results using the limit parameter.
+Expected Result:
+Should return the list of tracks for valid playlist ID.
+Should return a 404 error for invalid playlist IDs.
+
+7. Follow an Artist
+Test Case: Test the functionality of following an artist.
+Endpoint: PUT /v1/me/following
+Parameters: type=artist&ids={artist_id}
+Steps:
+
+Follow a valid artist ID.
+Attempt to follow an invalid artist ID.
+Expected Result:
+Should successfully follow a valid artist.
+Should return a 400 error for invalid artist IDs.
+
+8. Fetch Top Tracks of an Artist
+Test Case: Verify fetching an artist's top tracks.
+Endpoint: GET /v1/artists/{id}/top-tracks
+Steps:
+
+Fetch top tracks for a valid artist ID.
+Use an invalid artist ID.
+Expected Result:
+Should return top tracks for valid IDs.
+Should return a 404 error for invalid IDs.
+
+9. Audio Features of a Track
+Test Case: Test retrieval of audio features for a track.
+Endpoint: GET /v1/audio-features/{id}
+Steps:
+
+Fetch audio features for a valid track ID.
+Try fetching for an invalid track ID.
+Expected Result:
+API should return audio features like tempo, danceability, etc., for valid tracks.
+Should return a 400 error for invalid IDs.
+
+10. Rate Limits and Performance
+Test Case: Verify API behavior under high load.
+Steps:
+
+Send a large number of requests (e.g., 1000 requests/minute) to an endpoint.
+Expected Result:
+API should respond with a 429 error when rate limits are exceeded.
+Response times should remain within acceptable limits (e.g., < 200ms) under normal load.
