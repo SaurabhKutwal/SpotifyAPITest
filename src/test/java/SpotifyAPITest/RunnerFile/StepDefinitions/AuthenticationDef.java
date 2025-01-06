@@ -2,40 +2,37 @@ package SpotifyAPITest.RunnerFile.StepDefinitions;
 
 import SpotifyAPITest.POJOClass.RespAuthenticationSuc;
 import SpotifyAPITest.POJOClass.ResponseAuthorizationFail;
+import SpotifyAPITest.UtilityPKG.TestManager;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.restassured.RestAssured;
-import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-
-import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.Properties;
-
 import static io.restassured.RestAssured.given;
 
 
-public class AuthenticationDef {
+public class AuthenticationDef extends TestManager {
     RequestSpecification request;
-    Properties properties;
-    Response response;
 
     @Given("Load properties File")
     public void load() throws IOException {
-        FileInputStream file = new FileInputStream("/Users/saurabh/Desktop/JavaSelenium/SpotifyAPITest/src/test/java/SpotifyAPITest/Properties/UserDetails.properties");
-        properties = new Properties();
-        properties.load(file);
-
+        properties = TestManager.loadProperties();
         RestAssured.baseURI = properties.getProperty("baseURI");
     }
-    @Given("^A payload with (.+) Authorization code $")
+
+    @Given("Load Authentication baseURI")
+    public void loadAuthAPI(){
+        RestAssured.baseURI = properties.getProperty("AuthBaseURI");
+    }
+    @Given("^A payload with (.+) Authorization code$")
     public void getAPayloadForGettingAPIToken(String isIDValid) {
         String authCode = isIDValid.equals("right")?properties.getProperty("URL_Code"):"randomsString";
         String authorization = "Basic " + properties.getProperty("Base64_token");
-        request = given().log().all().header("Authorization",authorization)
+        request = given().header("Authorization",authorization)
                 .header("Content-Type","application/x-www-form-urlencoded")
                 .formParam("grant_type","authorization_code")
                 .formParam("code",authCode)
@@ -47,21 +44,22 @@ public class AuthenticationDef {
         response = request.when().post("/api/token");
     }
 
-    @Then("^Verify status code is (.+) $")
+    @Then("^Verify status code is (.+)$")
     public void verifyStatusCodeIs(int statusCode) {
-        response.then().log().all().assertThat().statusCode(statusCode);
+        response.then().assertThat().statusCode(statusCode);
     }
 
     @And("Check a token and token type")
     public void checkATokenAndTokenType() {
         RespAuthenticationSuc authSuc = response.then().extract().as(RespAuthenticationSuc.class);
-        System.out.println(authSuc.getToken_type());
-        System.out.println(authSuc.getAccess_token());
+        accessToken = authSuc.getAccess_token();
+        refreshToken = authSuc.getRefresh_token();
+        System.out.println("AccessToken  : " + accessToken);
     }
-    @And("Check errror msg")
+    @And("Check error msg")
     public void errorMsg(){
         ResponseAuthorizationFail authFail = response.then().extract().as(ResponseAuthorizationFail.class);
-        System.out.println(authFail.getError());
-        System.out.println(authFail.getError_description());
+        System.out.println("Error is : " + authFail.getError());
+        System.out.println("Error Description is : " + authFail.getError_description());
     }
 }
