@@ -5,6 +5,9 @@ public class RespAuthenticationSuc {
     private String token_type;
     private String expires_in;
     private String refresh_token;
+    private String scope;
+
+
 
     public String getAccess_token() {
         return access_token;
@@ -36,5 +39,13 @@ public class RespAuthenticationSuc {
 
     public void setRefresh_token(String refresh_token) {
         this.refresh_token = refresh_token;
+    }
+
+    public String getScope() {
+        return scope;
+    }
+
+    public void setScope(String scope) {
+        this.scope = scope;
     }
 }

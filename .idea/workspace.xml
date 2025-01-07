@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bb9f934-bdf6-4e03-be57-5e1289b70014" name="Changes" comment="Authentication, access_code and fetch User profile functionality done.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/Hooks/TestHooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/SearchItem.java" afterDir="false" />
+    <list default="true" id="1bb9f934-bdf6-4e03-be57-5e1289b70014" name="Changes" comment="Auto Token generation using refresh token.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/Playlist.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/POJOClass/PLayList/CreatePlayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/PLaylist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/SearchItem.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/SearchItem.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/POJOClass/RespAuthenticationSuc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/POJOClass/RespAuthenticationSuc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/Properties/UserDetails.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/Properties/UserDetails.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/AuthenticationDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/AuthenticationDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/UserProfile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/UtilityPKG/TestManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/UtilityPKG/TestManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/UtilityPKG/TokenManager.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +29,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/Playlist.feature" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/SearchItem.feature" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/Userprofile.feature" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -162,12 +161,21 @@
       <option name="project" value="LOCAL" />
       <updated>1736178127650</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Auto Token generation using refresh token.">
+      <option name="closed" value="true" />
+      <created>1736195818013</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736195818013</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="working" />
     <MESSAGE value="Authentication, access_code and fetch User profile functionality done." />
-    <option name="LAST_COMMIT_MESSAGE" value="Authentication, access_code and fetch User profile functionality done." />
+    <MESSAGE value="Auto Token generation using refresh token." />
+    <option name="LAST_COMMIT_MESSAGE" value="Auto Token generation using refresh token." />
   </component>
 </project>
