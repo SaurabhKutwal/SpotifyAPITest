@@ -15,6 +15,7 @@ import static io.restassured.RestAssured.given;
 public class TestHooks{
     @Before
     public void checkTokenExpiry() throws IOException {
+        System.out.println("In Hook");
         Properties properties = TestManager.loadProperties();
 
         //check current token validity by fetching user profile
