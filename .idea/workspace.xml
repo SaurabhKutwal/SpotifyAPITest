@@ -5,26 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bb9f934-bdf6-4e03-be57-5e1289b70014" name="Changes" comment="API Project pause.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/UsersService/UserTopItem.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/UsersService/Userprofile.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/UserServiceDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/services/ArtistService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/services/BaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/services/ServiceManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/services/UsersService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/Artist.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/ArtistService/Artist.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/Authentication.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/temp/Authentication.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/Playlist.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/temp/Playlist.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/SearchItem.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/temp/SearchItem.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/Userprofile.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/Properties/UserDetails.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/Properties/UserDetails.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/Artist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/ArtistServiceDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/AuthenticationDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/AuthenticationDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/Hooks/TestHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/Hooks/TestHooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/UserProfile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/Test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/ArtistService/Artist.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/ArtistService/Artist.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/ArtistServiceDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/ArtistServiceDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/services/ArtistService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/services/ArtistService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +38,14 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/Artist.feature" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/Playlist.feature" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/SearchItem.feature" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/ArtistService/Artist.feature" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/UsersService/UserTopItem.feature" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/UsersService/Userprofile.feature" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/ArtistServiceDef.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/UserServiceDef.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/SpotifyAPITest/services/BaseService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/SpotifyAPITest/temp/Playlist.feature" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/SpotifyAPITest/temp/SearchItem.feature" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -248,7 +233,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="FWChange" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
