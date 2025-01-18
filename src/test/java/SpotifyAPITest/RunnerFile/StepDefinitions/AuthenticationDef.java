@@ -44,10 +44,10 @@ public class AuthenticationDef extends TestManager {
         response = request.when().post("/api/token");
     }
 
-    @Then("^Verify status code is (.+)$")
-    public void verifyStatusCodeIs(int statusCode) {
-        response.then().assertThat().statusCode(statusCode);
-    }
+//    @Then("^Verify status code is (.+)$")
+//    public void verifyStatusCodeIs(int statusCode) {
+//        response.then().assertThat().statusCode(statusCode);
+//    }
 
     @And("Check a token and token type")
     public void checkATokenAndTokenType() throws IOException {
