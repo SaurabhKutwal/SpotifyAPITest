@@ -1,5 +1,6 @@
 package SpotifyAPITest.RunnerFile.StepDefinitions;
 
+import SpotifyAPITest.RunnerFile.StepDefinitions.Hooks.TestHooks;
 import SpotifyAPITest.services.ArtistService;
 import SpotifyAPITest.services.ServiceManager;
 import SpotifyAPITest.services.UsersService;
@@ -9,6 +10,8 @@ import io.cucumber.java.en.When;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.LinkedHashMap;
 import java.util.List;

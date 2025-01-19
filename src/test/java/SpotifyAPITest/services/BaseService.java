@@ -1,6 +1,8 @@
 package SpotifyAPITest.services;
 
+import SpotifyAPITest.Filter.LogFilter;
 import SpotifyAPITest.UtilityPKG.TokenManager;
+import groovy.util.logging.Log;
 import io.restassured.RestAssured.*;
 
 import io.restassured.RestAssured;
@@ -10,6 +12,10 @@ import io.restassured.specification.RequestSpecification;
 public class BaseService extends TokenManager {
     private static final String BASE_URI = "https://api.spotify.com";
     protected  RequestSpecification requestSpecification;
+
+    static{
+        RestAssured.filters(new LogFilter());
+    }
 
     protected BaseService(){
         RestAssured.baseURI = BASE_URI;

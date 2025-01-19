@@ -4,31 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bb9f934-bdf6-4e03-be57-5e1289b70014" name="Changes" comment="API Project pause.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/POJOClass/Request/PlaylistAddItemRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/POJOClass/Request/PlaylistCreateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/UtilityPKG/TokenManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/services/PlaylistService.java" afterDir="false" />
+    <list default="true" id="1bb9f934-bdf6-4e03-be57-5e1289b70014" name="Changes" comment="Service object model implementation done.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/Filter/LogFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/ArtistService/Artist.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/ArtistService/Artist.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/POJOClass/PLayList/CreatePlayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/POJOClass/RespAuthenticationSuc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/POJOClass/Response/AuthenticationSuccessResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/POJOClass/ResponseAuthorizationFail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/POJOClass/Response/AuthorizationFailureResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/Properties/UserDetails.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/Properties/UserDetails.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Notes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/PlaylistService/Playlist.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/PlaylistService/Playlist.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/UsersService/UserTopItem.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/UsersService/UserTopItem.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/Properties/UserDetails.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/ArtistServiceDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/ArtistServiceDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/AuthenticationDef.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/Hooks/TestHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/Hooks/TestHooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/PLaylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/PlaylistServiceDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/SearchItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/UserServiceDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/UserServiceDef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/UtilityPKG/TestManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/services/ArtistService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/services/ArtistService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/UtilityPKG/TokenManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/UtilityPKG/TokenManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/services/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/services/BaseService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/services/ServiceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/services/ServiceManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/temp/Authentication.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/temp/Playlist.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/PlaylistService/Playlist.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpotifyAPITest/temp/SearchItem.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/temp.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +55,11 @@
     <setting file="file://$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/PlaylistService/Playlist.feature" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/UsersService/UserTopItem.feature" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/SpotifyAPITest/FeatureFile/UsersService/Userprofile.feature" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/SpotifyAPITest/Filter/LogFilter.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/ArtistServiceDef.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/PlaylistServiceDef.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/SpotifyAPITest/RunnerFile/StepDefinitions/UserServiceDef.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/SpotifyAPITest/services/BaseService.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/test/java/SpotifyAPITest/temp/SearchItem.feature" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -81,6 +74,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -248,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736323650041</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Service object model implementation done.">
+      <option name="closed" value="true" />
+      <created>1737284180805</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737284180805</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,6 +282,7 @@
     <MESSAGE value="Auto Token generation using refresh token." />
     <MESSAGE value="playList features added." />
     <MESSAGE value="API Project pause." />
-    <option name="LAST_COMMIT_MESSAGE" value="API Project pause." />
+    <MESSAGE value="Service object model implementation done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Service object model implementation done." />
   </component>
 </project>
