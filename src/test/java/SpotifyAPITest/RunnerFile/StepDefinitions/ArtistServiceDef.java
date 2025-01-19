@@ -1,6 +1,5 @@
 package SpotifyAPITest.RunnerFile.StepDefinitions;
 
-import SpotifyAPITest.UtilityPKG.TestManager;
 import SpotifyAPITest.services.ArtistService;
 import SpotifyAPITest.services.ServiceManager;
 import SpotifyAPITest.services.UsersService;

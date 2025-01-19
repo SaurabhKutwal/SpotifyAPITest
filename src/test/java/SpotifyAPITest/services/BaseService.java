@@ -1,12 +1,13 @@
 package SpotifyAPITest.services;
 
+import SpotifyAPITest.UtilityPKG.TokenManager;
 import io.restassured.RestAssured.*;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-public class BaseService{
+public class BaseService extends TokenManager {
     private static final String BASE_URI = "https://api.spotify.com";
     protected  RequestSpecification requestSpecification;
 
@@ -19,7 +20,19 @@ public class BaseService{
         requestSpecification.header("Authorization","Bearer " + token);
     }
 
+    protected void setContentType(String contentType){
+        requestSpecification.header("Content-Type",contentType);
+    }
+
+    protected void setFormParam(String key, String value){
+        requestSpecification.formParam(key,value);
+    }
+
     protected Response getRequest(String endPoint){
         return requestSpecification.when().get(endPoint);
+    }
+
+    protected Response postRequest(Object payload,String endPoint){
+        return requestSpecification.body(payload).when().post(endPoint);
     }
 }

@@ -1,6 +1,6 @@
 
 
-Feature: Validate Artist API service
+Feature: Validate Artist API services
 
 #######################################################################################################################
 

@@ -1,6 +1,6 @@
-package SpotifyAPITest.POJOClass;
+package SpotifyAPITest.POJOClass.Response;
 
-public class ResponseAuthorizationFail {
+public class AuthorizationFailureResponse {
     private String error;
     private String error_description;
 

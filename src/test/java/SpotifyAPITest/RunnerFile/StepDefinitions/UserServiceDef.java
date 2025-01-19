@@ -1,5 +1,6 @@
 package SpotifyAPITest.RunnerFile.StepDefinitions;
 
+import SpotifyAPITest.UtilityPKG.TokenManager;
 import SpotifyAPITest.services.ServiceManager;
 import SpotifyAPITest.services.UsersService;
 import io.cucumber.java.en.Given;
@@ -16,10 +17,9 @@ import java.util.List;
 
 public class UserServiceDef extends ServiceManager {
     String token;
-
     @Given("^Make a RequestSpecification with (.+) authorization token$")
     public void addAuthorizationHeader(String isCodeValid) {
-        token = isCodeValid.equals("right")?"BQD09YNcHsMeJ4Z2UYXMN41r-t_gqD5K-aZZBH6i7XFQCh11xNMxwRvUr1w92jM2gHNN0YZz4khxzvRx7yYN9ZZlFKJ_5PWf6SEb2EZC3Ufa4ecz8RMIHfgLdAYRRtQPdCKXF1oWdsBnfQsGxn48ZIxGm2m0svtnzPTrKcChvB6OyfcYNtvRyomipvd0QCyaHMlu1IVabPmGK2XI9RZmTv1NE307b1My":"randomsString";
+        token = isCodeValid.equals("right")? TokenManager.token:"randomsString";
     }
 
     @When("Make a Get request for profile")

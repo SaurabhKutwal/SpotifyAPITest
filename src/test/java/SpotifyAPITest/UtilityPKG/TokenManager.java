@@ -1,0 +1,5 @@
+package SpotifyAPITest.UtilityPKG;
+
+public class TokenManager {
+    public static String token = "BQCJIEMPqhm0Alpt-DN7PsVVUcUWHYLVdg45zxF8ShNd3TyP3Mgp91H5iRryUdnMUCYR9C2Ra4I44wV9DEArgPmmXtbhjc0nAIaThRiOdzxxKyqyv696lg4FvY_6iKXhEy_i_hj18suAWTB5WuzZpVzgAP-i_j4p4Szn23NXkA3WsMxc9tIl7ROA__PEbFuEwl9jMIx7ZBMmeIb3aLfJl99tLKM2m63UgnGX2v8YlrJ7fUHxFY8vMtjyDP_bF5y9CTZYCiDddWnz70QKa859x4pcEXUZyQ";
+}

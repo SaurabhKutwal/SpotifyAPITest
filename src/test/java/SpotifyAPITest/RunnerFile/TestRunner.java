@@ -7,5 +7,9 @@ import org.testng.annotations.DataProvider;
 
 @CucumberOptions(features = "src/test/java/SpotifyAPITest/FeatureFile",monochrome = true)
 public class TestRunner extends AbstractTestNGCucumberTests {
-
+//    @DataProvider(parallel = true)
+//    @Override
+//    public Object[][] scenarios() {
+//        return super.scenarios();
+//    }
 }
